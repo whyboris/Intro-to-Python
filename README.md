@@ -37,5 +37,8 @@ alias popo='source ~/.popo/venv/bin/activate'
 
 It's common to use [Jupyter](https://jupyter.org) to play with data, share or explain a procedure, or even to [run your company](https://medium.com/netflix-techblog/notebook-innovation-591ee3221233).
 
-Install with `pip install jupyterlab` or, as a common convention, by using the _requirements.txt_ file wyth `pip install -r requirements.txt`
+Install with `pip install jupyterlab` or, as a common convention, by using the _requirements.txt_ file wyth
+```sh
+pip install -r requirements.txt
+```
 
