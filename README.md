@@ -21,3 +21,14 @@ Rather than install python packages (libraries) globally, we'll use [virtual env
 2. `source venv/bin/activate` (you're now activating the virtual environment)
 
 This is equivalent to _node_modules_ :sunglasses: -- run `which python` and you'll see the path points to inside your new folder. Now any time you `pip instal [anything]` it will be installed inside the virutal environemnt (inside the folder). To deactivate the environment, just enter `deactivate` in the terminal.
+
+### Pro tip
+
+In your `.bashrc` (or `.zshrc` if you're on _zsh_, or the equivalent file you use with your terminal), add the alias:
+```
+alias py='python3'
+```
+You can also create a favorite environment in some convenient folder that you activate with some command, e.g.:
+```
+alias popo='source ~/.popo/venv/bin/activate'
+```
