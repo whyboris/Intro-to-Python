@@ -14,7 +14,7 @@ Install requirements:
 2. Install [virtualenv](https://virtualenv.pypa.io/en/latest/installation/)
     - open your _terminal_ and run the command `pip install virtualenv`
 
-Rather than install python packages (libraries) globally, we'll use [virtual environments](https://virtualenv.pypa.io/en/latest/userguide/):
+Rather than install python [packages](https://pypi.org/) (libraries) globally, we'll use [virtual environments](https://virtualenv.pypa.io/en/latest/userguide/):
 
 0. Create a folder, go to it in your terminal
 1. `virtualenv venv` ('venv' or 'env' is a convention, you can use whatever word)
