@@ -25,11 +25,11 @@ This is equivalent to _node_modules_ :sunglasses: -- run `which python` and you'
 ### Pro tip
 
 In your `.bashrc` (or `.zshrc` if you're on _zsh_, or the equivalent file you use with your terminal), add the alias:
-```
+```sh
 alias py='python3'
 ```
 You can also create a favorite environment in some convenient folder that you activate with some command, e.g.:
-```
+```sh
 alias popo='source ~/.popo/venv/bin/activate'
 ```
 
