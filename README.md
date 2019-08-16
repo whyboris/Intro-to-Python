@@ -12,7 +12,7 @@ Install requirements:
 1. Install [Python 3.6+](https://www.python.org/downloads/)
     - this will automatically install *pip* (_Pip Installs Python_ - a way to download [packages](https://pypi.org/))
 2. Install [virtualenv](https://virtualenv.pypa.io/en/latest/installation/)
-    - open your _terminal_ and run the command `pip install virtualenv`
+    - open your _terminal_ and run the command `pip3 install virtualenv`
 
 Rather than install python [packages](https://pypi.org/) (libraries) globally, we'll use [virtual environments](https://virtualenv.pypa.io/en/latest/userguide/):
 
