@@ -22,6 +22,17 @@ Rather than install python [packages](https://pypi.org/) (libraries) globally, w
 
 This is equivalent to _node_modules_ :sunglasses: -- run `which python` and you'll see the path points to inside your new folder. Now any time you `pip instal [anything]` it will be installed inside the virutal environemnt (inside the folder). To deactivate the environment, just enter `deactivate` in the terminal.
 
+## Jupyter
+
+It's common to use [Jupyter](https://jupyter.org) to play with data, share or explain a procedure, or even to [run your company](https://medium.com/netflix-techblog/notebook-innovation-591ee3221233).
+
+While inside the virtual environment, install with `pip install jupyterlab` or, as a common convention, by using the _requirements.txt_ file with
+```sh
+pip install -r requirements.txt
+```
+
+Now start Jupyter Lab in your terminal with `jupyter lab` and open the `showcase.ipynb` from within Jupyter Lab :tada:
+
 ### Pro tip
 
 In your `.bashrc` (or `.zshrc` if you're on _zsh_, or the equivalent file you use with your terminal), add the alias:
@@ -32,13 +43,3 @@ You can also create a favorite environment in some convenient folder that you ac
 ```sh
 alias popo='source ~/.popo/venv/bin/activate'
 ```
-
-## Jupyter
-
-It's common to use [Jupyter](https://jupyter.org) to play with data, share or explain a procedure, or even to [run your company](https://medium.com/netflix-techblog/notebook-innovation-591ee3221233).
-
-Install with `pip install jupyterlab` or, as a common convention, by using the _requirements.txt_ file wyth
-```sh
-pip install -r requirements.txt
-```
-
